@@ -20,10 +20,10 @@ Made this personal website using HTML/CSS/Javascript. I'm very grateful to the A
                         
 ## 🔧 Technologies
 
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/)
-- [VS Code](https://code.visualstudio.com/)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/),
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/),
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/),
+- [VS Code](https://code.visualstudio.com/);
 
 ## 😊 How to run
                         

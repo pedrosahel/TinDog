@@ -1,0 +1,199 @@
+:root {
+    --main--font: 'Montserrat', sans-serif;
+    --brand-font: 'Ubuntu';
+
+    --main-title-color: #ff4c68;
+    --secundary-color: antiquewhite;
+    --icon-color: #ef8172;
+    --subtitle-color: #8f8f8f;
+}
+
+/* Main CSS */
+
+body {
+    font-family: var(--main--font);
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    color: var(--subtitle-color);
+}
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 14%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: var(--main-title-color);
+    color: white;
+}
+
+.white-section {
+    background-color: var(--secundary-color);
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: var(--brand-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 18px;
+    text-align: right;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: var(--main--font);
+    font-weight: 400;
+}
+
+/* Title */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.image-title-div {
+    position: relative;
+}
+
+.title-image {
+    width: 70%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.feature-item {
+    margin-top: 5rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.icons {
+    color: var(--icon-color);
+    margin-bottom: 2rem;
+}
+
+.icons:hover {
+    color: var(--main-title-color);
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: var(--icon-color);
+}
+
+.testimonials-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press  */
+
+#press {
+    background-color: var(--icon-color);
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-cards {
+    padding: 3% 2%;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+/* Call To Action */
+
+/* Footer */
+
+.social {
+    padding: 0 .75rem 2rem;
+    color: rgb(53, 53, 53);
+}
+
+.social:hover {
+    color: var(--main-title-color);
+}
+
+#footer p {
+    font-size: 0.90rem;
+}
+
+
+/* Media */
+
+@media (max-width: 1200px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
